@@ -1,0 +1,107 @@
+.background {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../assets/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+._logo_t0l6t_5 {
+  width: 150px;
+  height: auto;
+}
+.mainImage img {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 15px;
+}
+
+.dropdownToggle {
+  text-align: left; 
+  padding: 0.75rem;
+  border-radius: 8px; 
+  background-color: #f8f9fa;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  white-space: nowrap; /* Prevent wrapping inside the button */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.viewCarParkButton {
+  background-image: linear-gradient(to right, #FF8F00, #FF0D00);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+.dropdownMenu {
+  max-height: 450px;
+  overflow-y: auto; 
+  scrollbar-width: thin; /* Set the width of the scrollbar to thin */
+  scrollbar-color: #f1f1f4 #00000000;
+  border: none;
+  box-shadow: 0px 0px 50px 0px rgba(82, 63, 105, 0.15);
+}
+.authCard {
+  /* min-width: 570px; */
+  max-width: 570px;
+  width: 100%;
+  padding: 40px 20px;
+  border: 10px solid rgb(0 0 0 / 7%);
+}
+ 
+.dropdownItem {
+  padding: 12px 4px;
+  white-space: nowrap; /* Prevent text from wrapping to the next line */
+  overflow: hidden; /* Prevent overflow issues */
+  text-overflow: ellipsis;
+  font-size: 14px;
+  font-weight: 400;
+}
+.formControl {
+  padding: 0.8rem 1rem;
+  border-radius: 12px;
+  border: 1px solid #ced4da;
+}
+/* 
+.background {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../assets/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.mainImage {
+  padding-bottom: 30px;
+}
+
+._logo_t0l6t_5 {
+  width: 150px;
+  height: auto;
+}
+
+.dropdownToggle {
+  text-align: right;
+  padding: 0.75rem;
+}
+
+.viewCarParkButton {
+  background-image: linear-gradient(to right, #FF8F00, #FF0D00);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+.authCard {
+  min-width: 570px;
+  max-width: 570px;
+  padding: 40px 20px;
+  border: 10px solid rgb(0 0 0 / 7%);
+}
+.btn:hover {
+  color: var(--bs-btn-hover-color);
+  background-color: #d3d4d561;
+} */
